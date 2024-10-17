@@ -9,8 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        black: "#141415",
+        ebony: "#1B1B1A",
+        darkCharcoal: "#303130", // For Ebony BG Borders, Rings or Outlines.
+
+        white: "#F5F5F5",
+        gray: "#666866",
+        lightGray: "#a9aaa9",
+      },
+
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        playfair: ["var(--font-playfair)"],
       },
     },
   },
