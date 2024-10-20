@@ -12,6 +12,6 @@ export function Button() {
       className="bg-ebony px-10 py-3 text-lightGray ring-1 ring-darkCharcoal/80 text-xs cursor-pointer"
     >
       Enter
-    </motion.button>  
+    </motion.button>
   );
 }
